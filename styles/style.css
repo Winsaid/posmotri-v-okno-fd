@@ -88,7 +88,8 @@ ol {
 }
 
 .content__list-container {
-  max-height: 298px;
+  height: 298px;
+  width: 399px;
   overflow-y: auto;
   position: relative;
 }
@@ -209,10 +210,8 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   appearance: none;
-  padding: 5px 0;
-  width: 100%;
+  margin-top: 5px;
   min-width: 225px;
-  gap: 5px;
 }
 
 .search-form__textfield::placeholder {
